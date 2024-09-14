@@ -31,14 +31,6 @@ while (rotations < 2) {
        
   
 
-  
-  // trafficLight.state = "Orange";
-  //   console.log("The traffic light is on", currentState);
-  //   trafficLight.state = "Green";
-  //       console.log("The traffic light is on", currentState);
-
-
-
 
 
 
