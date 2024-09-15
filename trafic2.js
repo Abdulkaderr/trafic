@@ -20,7 +20,6 @@ while (cycle < 2) {
     cycle++;  
   }
 }
-console.log("The traffic light made 2 cycles and stopped working.");
 
   // TODO
   // if the color is green, turn it orange
