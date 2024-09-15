@@ -1,3 +1,4 @@
+
 "use strict";
 
 const trafficLight = {
@@ -11,12 +12,17 @@ while (rotations < 2) {
 
   if (currentState === "green"){
     trafficLight.state = "orange";
-  } else if (currentState === "orange"){
+    if (currentState === "orange"){
     trafficLight.state = "red";
-  } else if (currentState === "red"){
+if (currentState === "red"){
     rotations++;
     trafficLight.state = "green";
-  } 
+  }  
+  }  
+  } else {
+    console.log("The traffic light stopped working.");
+    break;
+    }
   }
 
   // TODO
